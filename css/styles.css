@@ -510,8 +510,6 @@ section{
     height: 120px;
     object-fit: contain;
     margin-bottom: 20px;
-    filter:grayscale(100%);
-    opacity:.7;
     transition:.4s;
 
 }
