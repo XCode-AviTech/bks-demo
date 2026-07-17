@@ -91,6 +91,7 @@ Home page responsive styles
 
     .hero-content{
         padding: 30px;
+        padding-top: 0px;
     }
 
     .hero-title {
@@ -121,8 +122,8 @@ Home page responsive styles
 
     
     .hero-content{
-        margin-top: 20px;
         padding: 20px;
+        margin-top: 0px;
     }
 
     .hero-text {
