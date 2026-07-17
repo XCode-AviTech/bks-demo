@@ -1,0 +1,127 @@
+/*=====================================
+Project page responsive styles
+=====================================*/
+
+@media (max-width: 992px) {
+    .projects-hero {
+        padding: 140px 0 80px;
+    }
+
+    .projects-hero h2 {
+        font-size: 3rem;
+    }
+
+    .card-img-top {
+        height: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-hero {
+        padding: 120px 0 70px;
+    }
+
+    .projects-hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .projects-hero p {
+        font-size: 1rem;
+    }
+
+    .stats {
+        margin: 50px auto 24px;
+    }
+
+    .stat {
+        margin-bottom: 20px;
+    }
+
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-hero {
+        padding: 110px 0 60px;
+    }
+
+    .projects-hero h2 {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .hero-badge {
+        font-size: .8rem;
+        padding: 7px 12px;
+    }
+
+    .div-title {
+        font-size: 1.8rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
+
+/*=====================================
+Home page responsive styles
+====================================*/
+
+@media (max-width: 992px) {
+    .hero {
+        padding: 80px 0 40px;
+    }
+
+    .hero-title {
+        font-size: 2.4rem;
+    }
+
+    .hero-image {
+        opacity: 0.16;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 100px 0 60px;
+    }
+
+    .hero-title {
+        font-size: 2.1rem;
+    }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 120px 0 70px;
+    }
+
+    .hero-title {
+        font-size: 1.9rem;
+        margin: 16px 0;
+    }
+
+    .hero-text {
+        font-size: 0.95rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-badge {
+        font-size: .8rem;
+        padding: 7px 12px;
+    }
+}
