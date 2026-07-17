@@ -86,7 +86,7 @@ Home page responsive styles
 
 @media (max-width: 768px) {
     .hero {
-        padding: 80px 0 60px;
+        padding: 40px 0 60px;
     }  
 
     .hero-content{
@@ -112,7 +112,7 @@ Home page responsive styles
 
 @media (max-width: 576px) {
     .hero {
-        padding: 50px 0 70px;
+        padding: 20px 0 70px;
     }
 
     .hero-title {
