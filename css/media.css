@@ -1,0 +1,67 @@
+/*=====================================
+Project page responsive styles
+=====================================*/
+
+@media (max-width: 992px) {
+    .projects-hero {
+        padding: 190px 0 100px;
+    }
+
+    .projects-hero h2 {
+        font-size: 3rem;
+    }
+
+    .card-img-top {
+        height: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-hero {
+        padding: 180px 0 90px;
+    }
+
+    .projects-hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .projects-hero p {
+        font-size: 1rem;
+    }
+
+    .stats {
+        margin: 50px auto 24px;
+    }
+
+    .stat {
+        margin-bottom: 20px;
+    }
+
+    .card-img-top {
+        height: 220px;
+    }
+}
+
+@media (max-width: 576px) {
+    .projects-hero {
+        padding: 170px 0 80px;
+    }
+
+    .projects-hero h2 {
+        font-size: 2rem;
+        margin-bottom: 14px;
+    }
+
+    .hero-badge {
+        font-size: .8rem;
+        padding: 7px 12px;
+    }
+
+    .div-title {
+        font-size: 1.8rem;
+    }
+
+    .card-img-top {
+        height: 200px;
+    }
+}
